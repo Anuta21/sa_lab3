@@ -1,5 +1,5 @@
-from sa_lab3.solve import Solve, SolveCustom
-from sa_lab3.output import PolynomialBuilder, PolynomialBuilderCustom
+from solve import Solve, SolveCustom
+from output import PolynomialBuilder, PolynomialBuilderCustom
 import itertools
 from concurrent import futures
 from time import time

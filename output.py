@@ -1,7 +1,7 @@
 import numpy as np
 from numpy.polynomial import Polynomial as pnm
-from sa_lab3.solve import Solve
-import sa_lab3.basis_gen as b_gen
+from solve import Solve
+import basis_gen as b_gen
 
 
 class PolynomialBuilder(object):

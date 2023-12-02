@@ -7,7 +7,7 @@ from datetime import datetime
 from tqdm import tqdm
 from scipy import special
 from scipy.sparse.linalg import cg
-from sa_lab3.basis_gen import basis_legendre
+from basis_gen import basis_legendre
 from sympy import symbols, legendre
 
 def legendre_polynomial(degree, x):
