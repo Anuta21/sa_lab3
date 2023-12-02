@@ -8,7 +8,6 @@ from tqdm import tqdm
 from scipy import special
 from scipy.sparse.linalg import cg
 from basis_gen import basis_legendre
-from sympy import symbols, legendre
 
 def legendre_polynomial(degree, x):
     if degree == 0:
