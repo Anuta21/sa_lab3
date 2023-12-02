@@ -10,10 +10,10 @@ class PolynomialBuilder(object):
         self._solution = solution
         max_degree = max(solution.deg) - 1
         if solution.poly_type == 'Поліноми Лежандра':
-            self.symbol = 'T'
+            self.symbol = 'P'
             # self.basis = b_gen.basis_legendre(max_degree)
         elif solution.poly_type == 'Зсунуті поліноми Лежандра':
-            self.symbol = 'U^*'
+            self.symbol = 'P^*'
             self.basis = b_gen.basis_sh_legendre(max_degree)
         elif solution.poly_type == 'Синус':
             self.symbol = 'sin'
